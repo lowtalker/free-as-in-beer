@@ -19,6 +19,7 @@ const NumberRangeInputs = ({ minInputValue, maxInputValue, minChangeCallback, ma
                             value={minInputValue}
                             onChange={event => minChangeCallback(event.target.value)}
                             onInputCapture={event => minChangeCallback(event.currentTarget.value)}
+                            onKeyUp={event => minChangeCallback(event.currentTarget.value)}
                             placeholder={ABV_MIN_VAL}
                         ></Form.Control>
                     </Container>
@@ -28,6 +29,7 @@ const NumberRangeInputs = ({ minInputValue, maxInputValue, minChangeCallback, ma
                             value={maxInputValue}
                             onChange={event => maxChangeCallback(event.target.value)}
                             onInputCapture={event => maxChangeCallback(event.currentTarget.value)}
+                            onKeyUp={event => maxChangeCallback(event.currentTarget.value)}
                             placeholder={ABV_MAX_VAL}
                         ></Form.Control>
                     </Container>
