@@ -29,7 +29,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `deploy the built file`
+### `deploy the built files`
 The project was built assuming it is hosted at /.
 You can control this with the homepage field in your package.json.
 
